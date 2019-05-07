@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: jonakoudijs/hadolint:latest
+
+    steps:
+      - checkout
+      - run:
+          name: Run Hadolint Test
+          command: git ls-files --exclude='Dockerfile*' --ignored | xargs hadolint
