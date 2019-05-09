@@ -9,6 +9,10 @@ Hadolint on Alpine for linting Dockerfiles
 
 ## Usage
 
+#### Pull latest image
+```
+docker pull jonakoudijs/hadolint
+```
 #### Test interactively
 ```
 docker run -it jonakoudijs/hadolint /bin/sh
