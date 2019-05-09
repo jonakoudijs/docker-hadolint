@@ -7,5 +7,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Run Hadolint Test
+          name: Run Hadolint test
           command: git ls-files --exclude='Dockerfile*' --ignored | xargs hadolint
+      - run:
+          name: Refresh MicroBadger metadata
+          command: curl --silent --show-error --location --fail --request POST https://hooks.microbadger.com/images/jonakoudijs/hadolint/$MICROBADGER_TOKEN
