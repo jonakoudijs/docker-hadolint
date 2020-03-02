@@ -1,6 +1,6 @@
 [![Test Status](https://img.shields.io/circleci/project/github/jonakoudijs/docker-hadolint.svg?label=test)](https://circleci.com/gh/jonakoudijs/docker-hadolint)
 [![Build Status](https://img.shields.io/docker/cloud/build/jonakoudijs/hadolint.svg?label=build)](https://hub.docker.com/r/jonakoudijs/hadolint/builds)
-[![Image Size](https://images.microbadger.com/badges/image/jonakoudijs/hadolint.svg)](https://microbadger.com/images/jonakoudijs/hadolint)
+[![Image Size](https://img.shields.io/docker/image-size/jonakoudijs/hadolint/latest.svg)](https://hub.docker.com/r/jonakoudijs/hadolint/tags)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 # Hadolint Docker Image
