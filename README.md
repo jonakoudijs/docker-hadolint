@@ -1,3 +1,7 @@
+> **THIS IMAGE HAS BEEN SUPERSEDED BY THE OFFICIAL IMAGE: https://hub.docker.com/r/hadolint/hadolint**
+
+---
+
 [![Test Status](https://img.shields.io/circleci/project/github/jonakoudijs/docker-hadolint.svg?label=test)](https://circleci.com/gh/jonakoudijs/docker-hadolint)
 [![Build Status](https://img.shields.io/docker/cloud/build/jonakoudijs/hadolint.svg?label=build)](https://hub.docker.com/r/jonakoudijs/hadolint/builds)
 [![Image Size](https://img.shields.io/docker/image-size/jonakoudijs/hadolint/latest.svg)](https://hub.docker.com/r/jonakoudijs/hadolint/tags)
